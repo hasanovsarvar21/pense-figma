@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;700&display=swap');
+
+:root {
+    --dark-color: #292830;
+    --orange-color: #ff7235;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* -------------------Nav qismi boshlandi---------------------------*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo>span {
+    font-size: 23px;
+    font-weight: 500;
+    color: var(--dark-color);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.nav-list-item>a {
+    color: var(--dark-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-list-item>a:hover {
+    color: #FF7235;
+    transition: 0.5s;
+}
+
+.nav-request-btn {
+    color: #FF7235;
+    border-radius: 8px;
+    border: 1px solid #FF7235;
+    background-color: transparent;
+    padding: 15px 17px 16px 18px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-request-btn:hover {
+    cursor: pointer;
+    background-color: #FF7235;
+    color: white;
+    transition: 0.7s ease-in-out;
+}
+
+/* -------------------Nav qismi tugadi---------------------------*/
+
+
+
+/* -------------------Header bottom qismi boshlandi---------------------------*/
+
+
+.header-bottom {
+    margin-top: 106px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-bottom-text>h1 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+}
+
+.header-bottom-text>p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.81px;
+    text-align: left;
+    margin: 20px 0px 40px 0px;
+    color: #BDBDBD;
+}
+
+.try-free-box>select {
+    padding: 18px 24px;
+    border-radius: 8px;
+    background: var(--orange-color);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 24px;
+}
+
+.try-free-box span {
+    color: #BDBDBD;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.81px;
+}
+
+.try-free-box {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+main{
+    margin-top: 210px;
+}
+
+/* -------------------Header bottom qismi tugadi---------------------------*/
+
+
+/* -------------------Main overview qismi boshlandi---------------------------*/
+
+.overview {
+    background-color: var(--orange-color);
+
+}
+
+.img-overview {
+    margin-top: 87px 0px 0px 0px;
+    width: 100%;
+}
+
+.logos-overview img {
+    width: 159px;
+    height: 32px;
+    margin: 20px 0px 0px 0px;
+}
+
+.logos-overview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0px;
+}
